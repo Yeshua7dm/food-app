@@ -25,6 +25,7 @@ const CustomInput = ({
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
         placeholder={placeholder}
+        secureTextEntry={secureTextEntry}
         placeholderTextColor={isFocused ? "#000" : "#888"}
         className={cn(
           "input",
